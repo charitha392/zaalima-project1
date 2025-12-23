@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: vaultcore-backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/vaultcore_db
+      database: vaultcore_db
